@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 216, 157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 125px;
+    background-color: rgb(84, 107, 65);
+    border-radius: 20px;
+    margin-top: 100px;
+    border: solid 2px  rgb(49, 62, 23);
+}
+
+h1{
+    text-align: center;
+    color: rgb(49, 62, 23);
+    margin-bottom: 10px;
+}
+
+#pending-count{
+    text-align: center;
+    color: grey;
+}
+
+.input-section{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#task-input{
+    flex: 1;
+    padding: 5px;
+    border: solid rgb(137, 152, 109) 2px;
+    border-radius: 20px;
+     background-color: rgb(246, 240, 215);
+}
+
+select, #add-btn{
+    padding: 5px;
+    border-radius: 20px;
+    border: solid rgb(137, 152, 109) 2px;
+     background-color: rgb(246, 240, 215);
+}
+
+#add-btn{
+    cursor: pointer;
+     background-color: rgb(246, 240, 215);
+}
+
+.filter-section{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#filter-all, #filter-pending, #filter-completed{
+    padding: 5px;
+    border: solid rgb(137, 152, 109) 2px;
+    border-radius: 20px;
+     background-color: rgb(246, 240, 215);
+}
+
+#task-list{
+    margin-top: 10px;
+    background-color: rgb(246, 240, 215);
+     border: solid rgb(156, 171, 132) 2px;
+    border-radius: 20px;
+    text-align: center;
+}
